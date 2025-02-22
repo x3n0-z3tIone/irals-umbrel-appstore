@@ -52,11 +52,11 @@ repo: https://github.com/reckless-satoshi/robosats
 support: https://t.me/robosats
 port: 4488
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
-  - 5.jpg
+  - https://i.imgur.com/K1iKVH5.jpeg
+  - https://i.imgur.com/3vuODIA.jpeg
+  - https://i.imgur.com/WSHYjnE.jpeg
+  - https://i.imgur.com/MKCxbxC.jpeg
+  - https://i.imgur.com/miGyFmf.jpeg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
