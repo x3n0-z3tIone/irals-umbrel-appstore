@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: robosats_web_2
+      APP_PORT: 4488
+
+  web:
+    image: recksato/robosats-client:v0.7.1-alpha@sha256:69a4d1cc184c45dff720fd41999408fabc9a2789d1de456488ed2311c7184d40
+    restart: on-failure
+    stop_grace_period: 1m
+    init: true
+    environment:
+      TOR_PROXY_IP: ${TOR_PROXY_IP}
+      TOR_PROXY_PORT: ${TOR_PROXY_PORT}
